@@ -1,12 +1,30 @@
-<script>
-export default {
-  name: 'App',
-}
+<script setup>
+import { onMounted } from 'vue'
+import { useNotificationStore } from '@/stores/notifications'
+
+const notificationStore = useNotificationStore()
+
+// Initialize notification store
+onMounted(() => {
+  // Nothing needed here, store is reactive
+})
 </script>
 
 <template>
   <router-view />
+  <NotificationToast />
 </template>
+
+<script>
+import NotificationToast from '@/components/notifications/NotificationToast.vue'
+
+export default {
+  name: 'App',
+  components: {
+    NotificationToast,
+  },
+}
+</script>
 
 <style>
 :root {
