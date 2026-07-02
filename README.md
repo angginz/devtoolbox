@@ -1,17 +1,26 @@
 # DevToolbox
 
-A modern Vue 3 application built with Vite, featuring state management with Pinia, routing with Vue Router, and comprehensive testing setup.
+An all-in-one developer toolbox application built with Vue 3 and Vite. Build faster with compact tools for formatting, validation, hashing, encoding, and more.
 
-## Features
+## Available Tools
+
+- **JSON Formatter** 🧩 - Pretty-print and validate JSON payloads
+- **JSON Validator** ✅ - Check whether your JSON parses correctly
+- **JWT Decoder** 🔐 - Decode JWT header and payload in seconds
+- **Password Generator** 🔑 - Create strong random passwords quickly
+- **UUID Generator** 🆔 - Generate version 4 UUID values
+- **Base64 Encode/Decode** 🧠 - Transform text to and from Base64
+- **Timestamp Converter** ⏱️ - Switch between human-readable dates and Unix timestamps
+- **Hash Generator** 🧪 - Generate common hashes (SHA-256, SHA-1, SHA-384, SHA-512) for any string input
+- **Cron Builder** 🗓️ - Build cron expressions and inspect them
+- **JSON Compare** 🔍 - Compare two JSON objects and surface differences
+
+## Tech Stack
 
 - **Vue 3** - Progressive JavaScript framework
 - **Vite** - Next generation frontend tooling
 - **Pinia** - Intuitive state management
 - **Vue Router** - Official router for Vue.js
-- **TypeScript-ready** - Configured for TypeScript development
-- **Testing** - Vitest for unit tests, Playwright for E2E tests
-- **Linting** - ESLint + Oxlint for code quality
-- **Formatting** - Prettier for code formatting
 
 ## Prerequisites
 
